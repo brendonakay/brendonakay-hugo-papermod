@@ -8,7 +8,7 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "Desc Text."
@@ -38,7 +38,7 @@ editPost:
 
 # Purpose
 
-1. Basic information and refresher on programming language types
+1. Introduction programming language type systems
 2. How types help us reason about programs
 3. A taste of some applications of type theory (TODO reword this)
 
@@ -63,9 +63,9 @@ message:  db        "Hello, World", 10      ; note the newline at the end
 ```
 credit: https://cs.lmu.edu/~ray/notes/x86assembly/
 
-As our programs grew in complexity the need for high-level programming languages grew. So, we wrote compilers that could translate code written in a high-level language to assembly. 
+As our programs grew in complexity the need for high-level programming languages grew. So, we wrote compilers that could translate code written in a high-level language to assembly.
 
-The first commercially available programming language, FORTRAN, came packaged with built in data types. Such as `INTEGER`, `REAL`, `DOUBLE PRECISION`, `COMPLEX`, and `LOGICAL`. 
+The first commercially available programming language, FORTRAN, came packaged with built in data types. Such as `INTEGER`, `REAL`, `DOUBLE PRECISION`, `COMPLEX`, and `LOGICAL`.
 
 Languages like C would allow you to create custom data types in the form of `sturct`s, which are a form of product types, but more on this later.
 
@@ -76,7 +76,7 @@ Let's start with a [Wikipedia definition](https://en.wikipedia.org/wiki/Type_sys
 also...
 > A type system dictates the operations that can be performed on a term.
 
-Programming languages can implement type systems in a few different ways. They can be statically typed, where validation checks are done at compile time. 
+Programming languages can implement type systems in a few different ways. They can be statically typed, where validation checks are done at compile time.
 They can be dynamically typed, where validation checks are done at run time. Or, they a combination of the two.
 
 Compilers of programming languages can also support type inference. Which is the automatic detection of the type of an expression in the language.
@@ -120,7 +120,7 @@ From the Python documentation [Typing Python Libraries](https://typing.readthedo
 
     Library authors are able to use static type checking themselves to help produce high-quality, bug-free implementations.
 
-Keep in mind Python can also be used as a scripting language. Usually for scripting, types aren't necessary. Or, at least explicit type annotations. A type inferencing system that works behind the scenes would be beneficial in my opinion. For an extreme case of this, check out [Using Haskell as my shell](https://las.rs/blog/haskell-as-shell.html). 
+Keep in mind Python can also be used as a scripting language. Usually for scripting, types aren't necessary. Or, at least explicit type annotations. A type inferencing system that works behind the scenes would be beneficial in my opinion. For an extreme case of this, check out [Using Haskell as my shell](https://las.rs/blog/haskell-as-shell.html).
 
 Remember, types come in handy when the complexity of your program grows beyond a simple script.
 

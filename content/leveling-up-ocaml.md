@@ -1,5 +1,5 @@
 ---
-title: "Nix OS"
+title: "Leveling Up Ocaml"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -36,13 +36,18 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# Journey with NixOS
+# Advent of Code
 
-`nix-env` is a good tool to get used to it on the CLI. A good tool for using nix.
+I thought I'd level up my skills with Ocaml by practicing last
+year's Advent of Code puzzles.
 
-Should move eventually to `home-manager` https://nixos.wiki/wiki/Home_Manager
+To learn idiomatic Ocaml I am referencing a public repo https://github.com/EvgenyPetrovsky/aoc2022_ocaml
+I am going through and adding comments in areas to further clarify my
+understanding.
 
-# TODO
-- Learn nix expressions.
-- Nixify a project.
-  - Physics haskell book?
+My goal is to only use day 1 as a reference and work on the rest of the days
+myself.
+
+I also want to build a module that optionally retrieves the day's input. Maybe
+optionally store it in an input folder? Functional programming makes this an
+easy task since the types are static. I know where to "plug in" my module.
