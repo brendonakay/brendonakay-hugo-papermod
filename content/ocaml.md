@@ -36,9 +36,9 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# Trying out Ocaml
-I read a post somewhere that said "Ocaml is Rust with garbage collection."
-And somewhere else someone related Ocaml to Go. So, naturally I became interested.
+# Trying out OCaml
+I read a post somewhere that said "OCaml is Rust with garbage collection."
+And somewhere else someone related OCaml to Go. So, naturally I became interested.
 I've been learning Haskell for the last six months. It's been a journey because
 Haskell has so much to offer. Sometimes it's overwhelming.
 
@@ -66,10 +66,10 @@ Public and private entities are defined in the module interface.
 These `.mli` files define the public interface for the module. Super simple.
 
 The community website https://ocaml.org/ is absolutely amazing for getting
-started and up to speed with Ocaml.
+started and up to speed with OCaml.
 
 My only criticism is that the standard library is pretty sparse. As compared to
-Go, which is "batteries included", I find Ocaml to be "batteries not included
+Go, which is "batteries included", I find OCaml to be "batteries not included
 and some assembly required". Not necessarily a bad thing because there are
 usually just a handful of libraries to choose from for some task, and the
 community openly supports them.

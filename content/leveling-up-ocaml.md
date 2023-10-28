@@ -1,9 +1,9 @@
 ---
-title: "Leveling Up Ocaml"
+title: "Leveling Up OCaml"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["ocaml", "functional programming", "advent of code"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -38,10 +38,10 @@ editPost:
 
 # Advent of Code
 
-I thought I'd level up my skills with Ocaml by practicing last
+I thought I'd level up my skills with OCaml by practicing last
 year's Advent of Code puzzles.
 
-To learn idiomatic Ocaml I am referencing a public repo https://github.com/EvgenyPetrovsky/aoc2022_ocaml
+To learn idiomatic OCaml I am referencing a public repo https://github.com/EvgenyPetrovsky/aoc2022_ocaml
 I am going through and adding comments in areas to further clarify my
 understanding.
 
@@ -51,3 +51,5 @@ myself.
 I also want to build a module that optionally retrieves the day's input. Maybe
 optionally store it in an input folder? Functional programming makes this an
 easy task since the types are static. I know where to "plug in" my module.
+
+This will also be a lesson in Functors and Modules.
