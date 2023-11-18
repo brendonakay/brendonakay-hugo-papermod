@@ -18,8 +18,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Brendon A. Kay
+  description: "Fun"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -54,7 +54,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "λ"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -75,8 +75,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Brendon A. Kay"
+    Content: fun
 
   socialIcons:
     - name: twitter

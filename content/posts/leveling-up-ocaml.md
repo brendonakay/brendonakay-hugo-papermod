@@ -1,6 +1,6 @@
 ---
 title: "Leveling Up OCaml"
-date: 2020-09-15T11:30:03+00:00
+date: 2023-11-18
 # weight: 1
 # aliases: ["/first"]
 tags: ["ocaml", "functional programming", "advent of code"]
@@ -8,11 +8,11 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+description: "Solving Advent of Code puzzles with OCaml"
+#canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -53,3 +53,9 @@ optionally store it in an input folder? Functional programming makes this an
 easy task since the types are static. I know where to "plug in" my module.
 
 This will also be a lesson in Functors and Modules.
+
+# Progress
+I had a lot of challenges with Nix starting this out. I'll talk more about those in another post.
+
+Modules and Functors were pretty straight forward if you understand Go interfaces. I sense that there are deeper differences between Go interfaces and OCaml Functors.
+

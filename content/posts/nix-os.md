@@ -8,7 +8,7 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
 description: "Desc Text."
@@ -41,6 +41,9 @@ editPost:
 `nix-env` is a good tool to get used to it on the CLI. A good tool for using nix.
 
 Should move eventually to `home-manager` https://nixos.wiki/wiki/Home_Manager
+
+# Learning flakes with `opam-nix`
+Flakes are the most popular way to package projects in the modern nix era. As far as my understanding goes.
 
 # TODO
 - Learn nix expressions.
